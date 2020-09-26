@@ -1,4 +1,4 @@
-package foo
+package main
 
 import (
 	"testing"
@@ -7,6 +7,6 @@ import (
 	_ "golang.org/x/crypto/bcrypt"
 )
 
-func TestTooHeavyTest(t *testing.T) {
+func Testmain(t *testing.T) {
 	time.Sleep(10*time.Second)
 }

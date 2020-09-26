@@ -1,7 +1,10 @@
-package foo
+package main
 
-import "strings"
+import (
+    "fmt"
+    "rsc.io/quote"
+)
 
-func Foo(in string) string {
-	return strings.ToUpper(in)
+func main() {
+    fmt.Println(quote.Opt())
 }
